@@ -23,10 +23,10 @@ SET row_security = off;
 -- Name: test; Type: DATABASE; Schema: -; Owner: -
 --
 
-CREATE DATABASE test3 WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE = 'Czech_Czechia.1250';
+CREATE DATABASE test WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE = 'Czech_Czechia.1250';
 
 
-\connect test3
+\connect test
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
